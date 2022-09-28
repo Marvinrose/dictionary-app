@@ -1,8 +1,10 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Dictionary from "./Dictionary";
 export default function App() {
   return (
-    <div>
-      <h1> This is my Dictionary Application</h1>
+    <div className="container">
+      <Dictionary />
     </div>
   );
 }
