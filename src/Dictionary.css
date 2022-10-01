@@ -2,7 +2,7 @@ body {
   background-color: #f4e7d7;
 }
 .container {
-  padding-top: 70px;
+  padding-top: 40px;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -54,11 +54,11 @@ h3 {
   line-height: 1;
 }
 
-p{
+p {
   font-size: 18px;
 }
 
-small{
+small {
   text-align: center;
 }
 
@@ -70,11 +70,8 @@ small{
   font-size: 18px;
 }
 
-.header{
-  font-size: 60px;
-  display: flex;
-  margin-right: 5px;
-  text-align: center;
+.header {
+  font-size: 50px;
 }
 
 .dictionary section {
@@ -85,11 +82,12 @@ small{
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
-
-
-@media (max-width: 300px){
-.header{
-  font-size: 45px;
-  display: block;
+section .photos {
+  padding-bottom: 30px;
 }
+
+@media (max-width: 300px) {
+  .header {
+    font-size: 30px;
+  }
 }

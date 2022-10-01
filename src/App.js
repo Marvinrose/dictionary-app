@@ -11,10 +11,10 @@ export default function App() {
         className="img-fluid  mx-auto d-block mb-3"
         width={200}
       ></img>
-      <div className="header">
-        <h1 className="text-center">MARVIN</h1>
-        <h1 className="text-center">Dictionary</h1>
-      </div>
+      
+        <h1 className="text-center header">MARVIN DICTIONARY</h1>
+        
+     
       <Dictionary defaultKeyword="rose" />
     </div>
   );
