@@ -8,10 +8,13 @@ export default function App() {
       <img
         src={dictionary}
         alt="logo"
-        className="img-fluid  mx-auto d-block"
+        className="img-fluid  mx-auto d-block mb-3"
         width={200}
       ></img>
-      <h1 className="text-center">MARVIN DICTIONARY</h1> <br />
+      <div className="header">
+        <h1 className="text-center">MARVIN</h1>
+        <h1 className="text-center">Dictionary</h1>
+      </div>
       <Dictionary defaultKeyword="rose" />
     </div>
   );

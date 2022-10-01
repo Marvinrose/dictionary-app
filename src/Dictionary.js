@@ -35,17 +35,19 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="dictionary">
-        <h1 className="fw-bold mb-3">What word do you want to look up?</h1>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="search"
-            onChange={handleKeywordChange}
-            defaultValue={props.defaultKeyword}
-          ></input>
-        </form>
-        <div className="hint">
-          suggested words: yoga, prince, rose, sunrise...
-        </div>
+        <section>
+          <h1 className="fw-bold mb-3">What word do you want to look up?</h1>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            ></input>
+          </form>
+          <div className="hint">
+            suggested words: yoga, prince, rose...
+          </div>
+        </section>
         <Results results={results} />
         <Footer />
       </div>
