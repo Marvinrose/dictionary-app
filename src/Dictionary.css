@@ -109,13 +109,16 @@ p {
 
 button {
   border-radius: 50%;
-  background-color: var(--primary-color);
   color: black;
-  border: 1px solid black;
+  border: 1px solid transparent;
 }
 
 @media (max-width: 300px) {
   .header {
     font-size: 30px;
+  }
+
+  button{
+    border-radius: 0;
   }
 }
