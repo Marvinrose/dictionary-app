@@ -13,8 +13,6 @@
   color: black;
 }
 
-
-
 body {
   background-color: var(--primary-color);
   font-family: "Playfair Display", serif;
@@ -102,7 +100,10 @@ p {
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
-
+.loader {
+  margin-top: 200px;
+  margin-left: 200px;
+}
 
 @media (max-width: 300px) {
   .header {
