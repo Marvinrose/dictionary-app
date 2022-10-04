@@ -1,5 +1,26 @@
-body {
+:root {
+  --primary-color: #f4e7d7;
+  --secondary-color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
   background-color: #f4e7d7;
+  color: black;
+}
+
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Playfair Display", serif;
 }
 .container {
   padding-top: 40px;
@@ -58,7 +79,7 @@ p {
   font-size: 18px;
 }
 
-small {
+.footer {
   text-align: center;
 }
 
@@ -72,18 +93,20 @@ small {
 
 .header {
   font-size: 50px;
+  font-weight: bolder;
 }
 
 .dictionary section {
-  background-color: white;
+  background-color: #fff;
+  color: black;
   padding: 23px;
   margin: 20px 0;
   border-radius: 16px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
-section .photos {
-  padding-bottom: 30px;
+#icon {
+  font-size: 20px;
 }
 
 @media (max-width: 300px) {

@@ -4,12 +4,16 @@ export default function Photos(props) {
   if (props.photos) {
     return (
       <section className="photos">
-        <div className="row">
+        <div className="row mb-3">
           {props.photos.map(function (photo, index) {
             return (
-              <div className="col-4" key={index}>
+              <div className="col-4 " key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  <img src={photo.src.landscape} className="img-fluid" alt="images"></img>
+                  <img
+                    src={photo.src.landscape}
+                    className="img-fluid mb-3"
+                    alt="images"
+                  ></img>
                 </a>
               </div>
             );
