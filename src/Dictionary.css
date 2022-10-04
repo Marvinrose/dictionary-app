@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #f4e7d7;
+  --primary-color: #f0a8ab;
   --secondary-color: black;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .light {
-  background-color: #f4e7d7;
+  background-color: #f0a8ab;
   color: black;
 }
 
@@ -105,8 +105,6 @@ p {
   margin-left: 200px;
 }
 
-
-
 button {
   border-radius: 50%;
   color: black;
@@ -118,7 +116,7 @@ button {
     font-size: 30px;
   }
 
-  button{
+  button {
     border-radius: 0;
   }
 }
