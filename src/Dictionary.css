@@ -13,10 +13,7 @@
   color: black;
 }
 
-.dark-theme {
-  --primary-color: black;
-  --secondary-color: white;
-}
+
 
 body {
   background-color: var(--primary-color);
@@ -105,9 +102,7 @@ p {
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
-#icon {
-  font-size: 20px;
-}
+
 
 @media (max-width: 300px) {
   .header {
