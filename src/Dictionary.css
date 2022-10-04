@@ -105,6 +105,15 @@ p {
   margin-left: 200px;
 }
 
+
+
+button {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: black;
+  border: 1px solid black;
+}
+
 @media (max-width: 300px) {
   .header {
     font-size: 30px;

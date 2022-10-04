@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function DarkMode() {
-  const [theme, setTheme] = useState(localStorage.getItem(`theme`) || `light`);
+  const [theme, setTheme] = useState(localStorage.getItem(`theme`) || `light sun`);
   const toggleTheme = () => {
     if (theme === `light`) {
       setTheme(`dark`);
@@ -16,9 +16,10 @@ export default function DarkMode() {
   }, [theme]);
   return (
     <div className={`App ${theme}`}>
-      <button onClick={toggleTheme}>
+      <button className="sun" onClick={toggleTheme}>
         <i class="fa fa-sun-o" aria-hidden="true"></i>
       </button>
+     
     </div>
   );
 }
