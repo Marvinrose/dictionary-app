@@ -3,16 +3,6 @@
   --secondary-color: black;
 }
 
-.dark {
-  background-color: black;
-  color: white;
-}
-
-.light {
-  background-color: #f0a8ab;
-  color: black;
-}
-
 body {
   background-color: var(--primary-color);
   font-family: "Playfair Display", serif;
@@ -105,18 +95,8 @@ p {
   margin-left: 200px;
 }
 
-button {
-  border-radius: 50%;
-  color: black;
-  border: 1px solid transparent;
-}
-
 @media (max-width: 300px) {
   .header {
     font-size: 30px;
-  }
-
-  button {
-    border-radius: none;
   }
 }

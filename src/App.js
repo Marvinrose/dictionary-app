@@ -2,11 +2,10 @@ import React from "react";
 import dictionary from "./dictionary-gif.gif";
 import "bootstrap/dist/css/bootstrap.css";
 import Dictionary from "./Dictionary";
-import DarkMode from "./DarkMode";
+
 export default function App() {
   return (
     <div className="container">
-      <DarkMode />
       <img
         src={dictionary}
         alt="logo"
